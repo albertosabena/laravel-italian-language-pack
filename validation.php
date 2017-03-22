@@ -14,7 +14,7 @@ return [
     */
 
     'accepted'             => ':attribute deve essere accettato.',
-    'active_url'           => ':attribute non è un indirizzo email valido.',
+    'active_url'           => ':attribute non contiene un indirizzo email valido.',
     'after'                => ':attribute deve essere successivo a :date.',
     'after_or_equal'       => ':attribute deve essere successivo o uguale a :date.',
     'alpha'                => ':attribute può contenere solamente lettere.',
@@ -49,18 +49,18 @@ return [
     'ip'                   => ':attribute deve essere un indirizzo IP valido.',
     'json'                 => ':attribute deve contenere una stringa JSON valida.',
     'max'                  => [
-        'numeric' => 'The :attribute may not be greater than :max.',
-        'file'    => 'The :attribute may not be greater than :max kilobytes.',
-        'string'  => 'The :attribute may not be greater than :max characters.',
-        'array'   => 'The :attribute may not have more than :max items.',
-    ],
-    'mimes'                => ':attribute deve contenere un file di tipo: :values.',
-    'mimetypes'            => ':attribute deve contenere un file di tipo: :values.',
-    'min'                  => [
         'numeric' => ':attribute non può essere superiore a :max.',
         'file'    => ':attribute non può essere più grande di :max kilobytes.',
         'string'  => ':attribute non può essere più lungo di :max caratteri.',
         'array'   => ':attribute non può contenere più di :max elementi.',
+    ],
+    'mimes'                => ':attribute deve contenere un file di tipo: :values.',
+    'mimetypes'            => ':attribute deve contenere un file di tipo: :values.',
+    'min'                  => [
+        'numeric' => ':attribute deve essere almeno :min.',
+        'file'    => ':attribute deve essere almeno :min kilobyte.',
+        'string'  => ':attribute deve avere almeno :min caratteri.',
+        'array'   => ':attribute deve avere almeno :min elementi.',
     ],
     'not_in'               => ':attribute selezionato non è valido.',
     'numeric'              => ':attribute deve essere un numero.',
