@@ -13,7 +13,8 @@ return [
     |
     */
 
-    'failed'   => "Le credenziali che hai inserito non sono corrette.",
-    'throttle' => "Troppi tentativi falliti. Ti preghiamo di riprovare tra :seconds secondi.",
-    
+    'failed' => 'Le credenziali che hai inserito non sono corrette.',
+    'password' => 'La password che hai inserito non è corretta.',
+    'throttle' => 'Troppi tentativi falliti. Ti preghiamo di riprovare tra :seconds secondi.',
+
 ];
