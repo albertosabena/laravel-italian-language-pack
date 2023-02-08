@@ -17,6 +17,6 @@ return [
     'sent' => 'Ti abbiamo inviato il link per il reset della password via email!',
     'throttled' => 'Per favore, attendi prima di riprovare.',
     'token' => 'Il token di reset della password non è valido.',
-    'user' => "Non è possibile trovare un utente con l'indirizzo email inserito.",
+    'user' => 'Non è possibile trovare un utente con l\'indirizzo email inserito.',
 
 ];
