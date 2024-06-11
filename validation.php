@@ -26,10 +26,10 @@ return [
     'before' => ':attribute deve essere una data antecedente a :date.',
     'before_or_equal' => ':attribute deve essere una data antecedente o uguale a :date.',
     'between' => [
-        'array' => ':attribute deve essere compreso tra :min and :max elementi.',
+        'array' => ':attribute deve essere compreso tra :min e :max elementi.',
         'file' => ':attribute deve essere compreso tra :min e :max kilobytes.',
         'numeric' => ':attribute deve essere compreso tra :min e :max.',
-        'string' => ':attribute deve essere compreso tra :min and :max caratteri.',
+        'string' => ':attribute deve essere compreso tra :min e :max caratteri.',
     ],
     'boolean' => ':attribute deve essere vero o falso.',
     'confirmed' => ':attribute non corrisponde.',
